@@ -6,9 +6,9 @@ package com.integration.designmode.adaptermode;
  */
 public class Client {
     public static void main(String[] args) {
-        Player play=new MediaPlayerOld();
+        Player play=new MediaPlayer();
         play.play("aaa.mp3");
         play.play("bbb.mp4");
-        play.play("ccc.mp5");
+        play.play("ccc.avi");
     }
 }

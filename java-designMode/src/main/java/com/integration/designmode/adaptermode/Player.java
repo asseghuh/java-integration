@@ -5,7 +5,7 @@ package com.integration.designmode.adaptermode;
  * @desc: todo
  */
 public interface Player {
-    void play(String finename);
+    void play(String filename);
 
     default String getFileType(String filename){
         if(filename.endsWith(".mp3")){
